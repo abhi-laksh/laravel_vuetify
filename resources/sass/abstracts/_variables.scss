@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700|Dosis:200,300,400,500,600,700,800&display=swap");
+@function Grad($clr1, $clr2, $endClr1: 0%, $endClr2: 100%, $rot: 45deg) {
+    @return #{"linear-gradient(" + $rot + "," + $clr1 + " " + $endClr1 + "," + $clr2 + " " + $endClr2 + ")"};
+}
+
+$conf: "Comfortaa", cursive;
+$dos: "Dosis", sans-serif;
+$FA: "Font Awesome 5 Free";
+
+$skin: #ff8b00 ;
+$purp: #7c39ff;
+$black:#0b0b0c;
+$white :#fff;
+$trans: transparent; 
+// linear-gradient(-90deg,#ff9472 0%,#fc5c65 100%)
+// linear-gradient(-90deg,#ff9472 0%,#fc5c65 100%)
+$colors: (
+    "skin": $skin,
+    "black": $black,
+    "white": $white,
+    "purp": $purp,
+    "trans": $trans,
+    "grad-0-sp": Grad($skin, $purp, $rot: 0deg),
+    "grad-45-sp": Grad($skin, $purp, $rot: 45deg),
+    "grad-90-sp": Grad($skin, $purp, $rot: 90deg),
+
+    "grad-0-ps": Grad($skin, $purp, $rot: 0deg),
+    "grad-45-ps": Grad($skin, $purp, $rot: 45deg),
+    "grad-90-ps": Grad($skin, $purp, $rot: 90deg),
+
+);
+$breakpoints-class: ("", "-xxs", "-xs", "-sm", "-md", "-lg", "-xl");
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+    (
+        0: 0,
+        1: (
+            $spacer * 0.25
+        ),
+        2: (
+            $spacer * 0.5
+        ),
+        3: $spacer,
+        4: (
+            $spacer * 1.5
+        ),
+        5: (
+            $spacer * 3
+        )
+    ),
+    $spacers
+);
+$imgPath: "../images/";

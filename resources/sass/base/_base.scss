@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*:focus,
+*:hover {
+    outline: none;
+}
+body {
+    @include setFont($dos, 1rem, 500);
+    color: $black;
+    line-height: 1.5;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    @include setFont($conf, 2.5rem, 400);
+    color: $black;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+p,
+a,
+span,
+small {
+    line-height: 1.5;
+}
+p,
+a,
+span,
+small,
+button,
+input,
+textarea,
+label {
+    @include setFont($dos, 1.0625rem, 500);
+    color: $black;
+    padding: 0;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    &:focus,
+    &:hover {
+        outline: none;
+    }
+}
+a,
+button,
+input,
+textarea {
+    @include transit(0.25s);
+}
+input,
+textarea {
+    border: none;
+    @include hoverFocus {
+        outline: none;
+    }
+}
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+select{
+    @include setFont("Arial");
+}
+@include setChildCmnt("custom classes starts");
+@each $className, $clr in $colors {
+    @if (not str-index($string: $className, $substring: "grad-")) {
+        #{".text-" + $className} {
+            color: $clr !important;
+        }
+    }
+}
+@each $className, $clr in $colors {
+    #{".bg-" + $className} {
+        background: $clr !important;
+    }
+}
+@each $bpName in $breakpoints-class {
+    @include classForBP($bpName) {
+        @each $num, $val in $spacers {
+            #{".p" + $bpName + "-" + $num} {
+                padding: #{$val + " !important"};
+            }
+        }
+    }
+}
+@include setChildCmnt("custom classes ends");

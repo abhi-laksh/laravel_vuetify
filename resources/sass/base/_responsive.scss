@@ -1,0 +1,1249 @@
+@media only screen and (max-width: 359.98px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 2rem;
+    }
+    .section-main {
+        padding: 3rem 0;
+    }
+    #navbarNav {
+        display: none;
+    }
+    #navTogglerResp,
+    #searchTogglerResp {
+        display: block;
+    }
+    .banner-carousel-item {
+        height: 480px;
+    }
+    .banner-content {
+        padding: 15px;
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0) 100%);
+    }
+    .banner-content h3 {
+        font-size: 1.5rem;
+    }
+    .banner-content p {
+        font-size: 1rem;
+    }
+    .banner-content h1 {
+        font-size: 1rem;
+    }
+    .ambition-content {
+        margin-bottom: 2.5rem;
+    }
+    .ambition-img {
+        height: 250px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        @include transF(translate(0%, -50%));
+    }
+    .events-carousel.owl-carousel .owl-nav {
+        top: 33%;
+    }
+    .contact {
+        display: block;
+    }
+    .contact-col img {
+        position: static;
+        @include transF(translate(0, 0));
+        height: auto;
+        max-width: 100%;
+    }
+    .contact-col {
+        display: block;
+        width: 100%;
+    }
+    #footer {
+        text-align: center;
+    }
+    .footer-quick-item {
+        margin: 0.75rem 0;
+    }
+    .footer-addresses-item {
+        margin-bottom: 1rem;
+    }
+    .footer-contact-item {
+        margin: 0.75rem 0;
+    }
+    .footer-social-link {
+        @include size(32px);
+    }
+    .footer-social-link i {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .custom-navbar .navbar-brand img {
+        height: 64px;
+    }
+    #footer .footerBG.left {
+        display: none;
+    }
+    #footer .footerBG.right {
+        right: -60%;
+    }
+    .doyat-banner {
+        padding: 8rem 0;
+    }
+    .doyat-banner img.bgWave {
+        opacity: 1;
+    }
+    .doyat-author span {
+        width: 2rem;
+        height: 2rem;
+    }
+    .doyat-author span img {
+        width: 1rem;
+    }
+    .doyat-text {
+        padding: 1rem;
+    }
+    .doyat-text p {
+        width: 100%;
+    }
+    .doyat-text > img {
+        width: 100%;
+    }
+    .doyat-author p {
+        font-size: 0.875rem;
+    }
+    .doyat-banner h1 {
+        font-size: 3.5rem;
+    }
+    .doyat-banner h1 {
+        font-size: 3rem;
+    }
+    .nav-tabs {
+        flex-wrap: wrap;
+    }
+    .nav-tabs-link {
+        flex: 1 1 50%;
+        max-width: 50%;
+    }
+    .page-title h2 {
+        font-size: 2.5rem;
+    }
+    .cards-doyat-link p {
+        font-size: 0.875rem;
+    }
+    .chitralekh-gallery-img {
+        height: 200px;
+    }
+    .chitralekh-gallery-caption {
+        position: static;
+        padding: 1rem 0;
+    }
+    .chitralekh-gallery-item:before {
+        // display: none;
+        opacity: 1;
+        background: url(../images/svgs/chitralekh/thumbBg.svg);
+        background-size: contain;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        @include transF(scale(-1, -1));
+        z-index: -1;
+    }
+    .chitralekh-gallery-item:after {
+        opacity: 1;
+        z-index: -1;
+        top: 0;
+    }
+    .chitralekh-gallery-caption p {
+        @include transF(translateX(0%));
+    }
+    .chitralekh-gallery-caption p span {
+        opacity: 1;
+        @include transF(scale(1));
+    }
+    .chitralekh-gallery-img {
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .ourWorks-videos .item-video {
+        height: 200px;
+    }
+    .owl-carousel .owl-video-play-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        width: 32px;
+        height: 32px;
+    }
+    .owl-carousel .owl-nav button.owl-prev i,
+    .owl-carousel .owl-nav button.owl-next i {
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .doyat-text,
+    .ourWorks-text {
+        padding: 1.25rem;
+    }
+    .owl-carousel .owl-video-play-icon {
+        border-radius: 0.25rem;
+    }
+    .footer-allAddress {
+        justify-content: center;
+        a {
+            margin-left: 0;
+        }
+        p {
+            margin-bottom: 1rem;
+            padding: 0;
+            &:after {
+                display: none;
+            }
+        }
+    }
+    .ourWorks-details {
+        justify-content: center;
+    }
+    .ourWorks-details span.code {
+        order: 2;
+        margin-bottom: 1rem;
+    }
+    .ourWorks-details span.date {
+        order: 3;
+    }
+    .section-profile-right {
+        max-width: 320px;
+        margin: auto;
+        &:after {
+            display: none;
+        }
+    }
+    .section-profile-right h3 {
+        font-size: 1.75rem;
+        margin-bottom: 1.25rem;
+        margin-top: 1rem;
+    }
+    .profile-chitralekh-img {
+        height: 200px;
+    }
+    .section-profile-right .cards-doyat-img {
+        height: 200px;
+    }
+    .section-profile-right h3 {
+        @include gradTxt(linear-gradient(90deg, #ffcc00 30%, #fc5c65, #788ae9 70%));
+        display: block;
+        font-size: 2rem;
+        text-align: center;
+        span {
+            &.number {
+                display: block;
+                border-radius: 3.5rem;
+                margin-left: 0;
+                margin-top: 1rem;
+                font-size: 50%;
+            }
+        }
+    }
+    #section-profile-edit .corner-bg {
+        height: 25%;
+    }
+    .bloodGroup {
+        &-row {
+            padding: 1rem 0.5rem;
+            background: linear-gradient(45deg, #ffcc00 0%, #fc5c65, #788ae9 90%);
+            position: relative;
+            z-index: 0;
+            margin: 1rem 0;
+            border-radius: 1rem;
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                right: 2px;
+                bottom: 2px;
+                width: auto;
+                height: auto;
+                background: #fff;
+                z-index: -1;
+                border-radius: 0.875rem;
+                background-image: url(../images/svgs/projBg.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        &-thead {
+            display: none;
+        }
+        &-userImg {
+            @include size(8rem);
+            margin-bottom: 0.5rem;
+        }
+        &-name,
+        &-email,
+        &-userBG,
+        &-city {
+            margin: 0.25rem 0;
+            font-size: 1rem;
+            &:before {
+                display: inline-block;
+            }
+        }
+    }
+    .form-select-body {
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        height: auto;
+        .input-body-search-main {
+            flex: 1 1 100%;
+            max-width: 100%;
+            height: 45px;
+            &.mr-3 {
+                margin-right: 0 !important;
+            }
+        }
+        .button-apply-body {
+            flex: 1 1 100%;
+            height: 45px;
+            max-width: 100%;
+            margin-top: 1rem;
+        }
+    }
+
+    .footer-donate {
+        ul {
+            li {
+                flex: 0 0 100%;
+            }
+        }
+    }
+}
+// Extra small devices (portrait phones, less than 576px)
+@media only screen and (min-width: 360px) and (max-width: 575.98px) {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-size: 2.25rem;
+    }
+    #navbarNav {
+        display: none;
+    }
+    #navTogglerResp,
+    #searchTogglerResp {
+        display: block;
+    }
+    #navTogg {
+        max-width: 360px;
+    }
+    .banner-carousel-item {
+        height: 480px;
+    }
+    .banner-content {
+        padding: 15px;
+    }
+    .banner-content h3 {
+        font-size: 1.5rem;
+    }
+    .banner-content p {
+        font-size: 1rem;
+    }
+    .banner-content h1 {
+        font-size: 1rem;
+    }
+    .ambition-item {
+        // margin-bottom: 2.5rem;
+    }
+    .ambition-img {
+        height: 380px;
+    }
+    .ambition-content {
+        margin-bottom: 2.5rem;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        @include transF(translate(0%, -50%));
+    }
+    .events-carousel.owl-carousel .owl-nav {
+        top: 33%;
+    }
+    .owl-carousel .owl-nav button.owl-prev i,
+    .owl-carousel .owl-nav button.owl-next i {
+        font-size: 16px;
+    }
+    .contact {
+        display: block;
+    }
+    .contact-col img {
+        position: static;
+        @include transF(translate(0, 0));
+        height: auto;
+        max-width: 100%;
+    }
+    .contact-col {
+        display: block;
+        width: 100%;
+    }
+    #footer {
+        text-align: center;
+    }
+    .footer-quick-item {
+        margin: 0.75rem 0;
+    }
+    .footer-addresses-item {
+        margin-bottom: 1rem;
+    }
+    .footer-contact-item {
+        margin: 0.75rem 0;
+    }
+    .footer-social-link {
+        @include size(32px);
+    }
+    .footer-social-link i {
+        font-size: 14px;
+        margin-top: 0px;
+    }
+    .custom-navbar .navbar-brand img {
+        height: 64px;
+    }
+    #navbarResp {
+        max-width: 360px;
+    }
+    .doyat-banner {
+        padding: 10rem 0;
+    }
+    .doyat-banner img.bgWave {
+        opacity: 1;
+    }
+    #footer .footerBG.left {
+        display: none;
+    }
+    #footer .footerBG.right {
+        right: -60%;
+    }
+
+    .doyat-author span {
+        width: 2rem;
+        height: 2rem;
+    }
+    .doyat-author span img {
+        width: 1rem;
+    }
+    .doyat-text {
+        padding: 1rem;
+    }
+    .doyat-text p {
+        width: 100%;
+    }
+    .doyat-text > img {
+        height: auto;
+        width: 70%;
+    }
+    .doyat-author p {
+        font-size: 0.875rem;
+    }
+    .doyat-banner h1 {
+        font-size: 3.5rem;
+    }
+
+    .page-title h2 {
+        font-size: 3rem;
+    }
+
+    .chitralekh-gallery-img {
+        height: 200px;
+    }
+    .chitralekh-gallery-caption {
+        position: static;
+        padding: 1rem 0;
+    }
+    .chitralekh-gallery-item:before {
+        // display: none;
+        opacity: 1;
+        background: url(../images/svgs/chitralekh/thumbBg.svg);
+        background-size: contain;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        @include transF(scale(-1, -1));
+
+        z-index: -1;
+    }
+    .chitralekh-gallery-item:after {
+        opacity: 1;
+        z-index: -1;
+        top: 0;
+    }
+    .chitralekh-gallery-caption p {
+        @include transF(translateX(0%));
+    }
+    .chitralekh-gallery-caption p span {
+        opacity: 1;
+        @include transF(scale(1));
+    }
+    .chitralekh-gallery-img {
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .chitralekh-gallery-item {
+        max-width: 320px;
+        margin: 0.875rem auto;
+    }
+    .ourWorks-videos .item-video {
+        height: 300px;
+    }
+    .owl-carousel .owl-video-play-icon {
+        width: 36px;
+        height: 36px;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        width: 32px;
+        height: 32px;
+    }
+    .owl-carousel .owl-nav button.owl-prev i,
+    .owl-carousel .owl-nav button.owl-next i {
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .doyat-text,
+    .ourWorks-text {
+        padding: 1.25rem;
+    }
+    .owl-carousel .owl-video-play-icon {
+        border-radius: 0.25rem;
+    }
+    .ourWorks-gallery-img {
+        height: 280px;
+    }
+    .footer-allAddress {
+        justify-content: center;
+        flex-direction: column;
+        a {
+            margin-left: 0;
+        }
+        p {
+            margin-bottom: 1rem;
+            padding: 0.5rem 0;
+            font-size: 1rem;
+            &:before {
+                display: block;
+            }
+        }
+    }
+    .ourWorks-details {
+        justify-content: space-between;
+        // flex-direction: roi;
+        h2 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .ourWorks-details span.code {
+        order: 2;
+        font-size: 0.875rem;
+        flex: 0 0 47%;
+        max-width: 47%;
+    }
+    .ourWorks-details span.date {
+        order: 3;
+        font-size: 0.875rem;
+        flex: 0 0 47%;
+        max-width: 47%;
+        &-day {
+            font-size: inherit;
+        }
+    }
+    .ourWorks-text h2 {
+        width: 100%;
+    }
+    .section-profile-right {
+        max-width: 320px;
+        margin: auto;
+        &:after {
+            display: none;
+        }
+    }
+    .profile-chitralekh-img {
+        height: 200px;
+    }
+    .section-profile-right h3 {
+        margin-bottom: 1.25rem;
+        margin-top: 1rem;
+        font-size: 1.75rem;
+    }
+    .profile-chitralekh-img {
+        height: 200px;
+    }
+    .section-profile-right .cards-doyat-img {
+        height: 200px;
+    }
+    .section-profile-right h3 {
+        @include gradTxt(linear-gradient(90deg, #ffcc00 30%, #fc5c65, #788ae9 70%));
+        display: block;
+        text-align: center;
+        font-size: 2.25rem;
+        span {
+            &.number {
+                display: block;
+                border-radius: 3.5rem;
+                margin-left: 0;
+                margin-top: 1rem;
+                font-size: 50%;
+            }
+        }
+    }
+    #section-profile-edit .corner-bg {
+        height: 30%;
+    }
+    .bloodGroup {
+        &-row {
+            padding: 1rem 0.5rem;
+            background: linear-gradient(45deg, #ffcc00 0%, #fc5c65, #788ae9 90%);
+            position: relative;
+            z-index: 0;
+            margin: 1rem 0;
+            border-radius: 1rem;
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                right: 2px;
+                bottom: 2px;
+                width: auto;
+                height: auto;
+                background: #fff;
+                z-index: -1;
+                border-radius: 0.875rem;
+                background-image: url(../images/svgs/projBg.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+        &-thead {
+            display: none;
+        }
+        &-userImg {
+            @include size(8rem);
+            margin-bottom: 0.5rem;
+        }
+        &-name,
+        &-email,
+        &-userBG,
+        &-city {
+            margin: 0.25rem 0;
+            font-size: 1rem;
+            &:before {
+                display: inline-block;
+            }
+        }
+    }
+
+    .form-select-body {
+        margin-top: 1rem;
+    }
+
+    .footer-donate {
+        ul {
+            li {
+                flex: 0 0 100%;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    #navbarNav {
+        display: none;
+    }
+    #navTogglerResp,
+    #searchTogglerResp {
+        display: block;
+    }
+    .projects-carousel-img,
+    .ambition-img {
+        height: 380px;
+    }
+    .ambition-item {
+        // margin-bottom: 2.5rem;
+    }
+    .ambition-content {
+        margin-bottom: 2.5rem;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        @include transF(translate(0%, -50%));
+    }
+    .events-carousel.owl-carousel .owl-nav {
+        top: 33%;
+    }
+    .owl-carousel .owl-nav button.owl-prev i,
+    .owl-carousel .owl-nav button.owl-next i {
+        font-size: 16px;
+    }
+    .contact {
+        display: block;
+    }
+    .contact-col img {
+        position: static;
+        @include transF(translate(0, 0));
+        height: auto;
+        max-width: 100%;
+    }
+    .contact-col {
+        display: block;
+        width: 100%;
+    }
+    #footer {
+        text-align: center;
+    }
+    .footer-quick-item {
+        margin: 0.75rem 0;
+    }
+    .footer-addresses-item {
+        margin-bottom: 1rem;
+    }
+    .footer-contact-item {
+        margin: 0.75rem 0;
+    }
+    .footer-social-link {
+        @include size(45px);
+    }
+    .footer-social-link i {
+        font-size: 1rem;
+        margin-top: 0px;
+    }
+    .footer-contact-link,
+    .footer-quick-link,
+    .footer-addresses-item p,
+    .footer-contact-icon i {
+        font-size: 1.125rem;
+    }
+    .footer-contact-icon i {
+        margin-right: 10px;
+    }
+    .footer-addresses-item h5 {
+        font-size: 1.75rem;
+    }
+    .footer-info h3 {
+        font-size: 2.5rem;
+    }
+    #navbarResp {
+        max-width: 360px;
+    }
+    .doyat-banner img.bgWave {
+        opacity: 1;
+    }
+    #footer .footerBG.left {
+        display: none;
+    }
+    #footer .footerBG.right {
+        right: -60%;
+    }
+    .doyat-author span {
+        width: 2rem;
+        height: 2rem;
+    }
+    .doyat-author span img {
+        width: 1rem;
+    }
+    .doyat-text {
+        padding: 1rem;
+    }
+    .doyat-text p {
+        width: 100%;
+    }
+    .doyat-text > img {
+        height: auto;
+        width: 70%;
+    }
+    .doyat-author p {
+        font-size: 1rem;
+    }
+
+    .chitralekh-gallery-img {
+        height: 200px;
+    }
+    .chitralekh-gallery-caption {
+        position: static;
+        padding: 1rem 0;
+    }
+    .chitralekh-gallery-item:before {
+        // display: none;
+        opacity: 1;
+        background: url(../images/svgs/chitralekh/thumbBg.svg);
+        background-size: contain;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        @include transF(scale(-1, -1));
+
+        z-index: -1;
+    }
+    .chitralekh-gallery-item:after {
+        opacity: 1;
+        z-index: -1;
+        top: 0;
+    }
+    .chitralekh-gallery-caption p {
+        @include transF(translateX(0%));
+    }
+    .chitralekh-gallery-caption p span {
+        opacity: 1;
+        @include transF(scale(1));
+    }
+    .chitralekh-gallery-img {
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .chitralekh-gallery-item {
+        margin: 0.875rem auto;
+    }
+    .ourWorks-videos .item-video {
+        height: 300px;
+    }
+    .ourWorks-gallery-img {
+        height: 280px;
+    }
+
+    .ourWorks-details {
+        justify-content: space-between;
+        // flex-direction: roi;
+        h2 {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .ourWorks-details span.code {
+        order: 2;
+        font-size: 0.875rem;
+        flex: 0 0 47%;
+        max-width: 47%;
+    }
+    .ourWorks-details span.date {
+        order: 3;
+        font-size: 0.875rem;
+        flex: 0 0 47%;
+        max-width: 47%;
+        &-day {
+            font-size: inherit;
+        }
+    }
+    .profile-chitralekh-img {
+        height: 100px;
+    }
+    .section-profile-right .cards-doyat-img {
+        height: 200px;
+    }
+    .section-profile-right {
+        max-width: 50%;
+        margin: auto;
+        &:after {
+            display: none;
+        }
+    }
+    .section-profile-right h3 {
+        @include gradTxt(linear-gradient(90deg, #ffcc00 30%, #fc5c65, #788ae9 70%));
+        display: block;
+        text-align: center;
+        span {
+            &.number {
+                display: block;
+                border-radius: 3.5rem;
+                margin-left: 0;
+                margin-top: 1rem;
+                font-size: 50%;
+            }
+        }
+    }
+    .bloodGroup {
+        &-row {
+            padding: 1rem 0.5rem;
+            background: linear-gradient(45deg, #ffcc00 0%, #fc5c65, #788ae9 90%);
+            position: relative;
+            z-index: 0;
+            margin: 1rem 0;
+            border-radius: 1rem;
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                right: 2px;
+                bottom: 2px;
+                width: auto;
+                height: auto;
+                background: #fff;
+                z-index: -1;
+                border-radius: 0.875rem;
+                background-image: url(../images/svgs/projBg.svg);
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        &-thead {
+            display: none;
+        }
+        &-userImg {
+            @include size(6rem);
+            margin-bottom: 0.5rem;
+        }
+        &-name,
+        &-email,
+        &-userBG,
+        &-city {
+            margin: 0.25rem 0;
+            font-size: 1rem;
+            &:before {
+                display: inline-block;
+            }
+        }
+    }
+    .form-select-body {
+        margin-top: 1rem;
+    }
+    .footer-donate {
+        text-align: left;
+
+        ul {
+            li {
+                flex: 0 0 50%;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    #navbarNav {
+        display: none;
+    }
+    #navTogglerResp,
+    #searchTogglerResp {
+        display: block;
+    }
+    .projects-carousel-img,
+    .ambition-img {
+        height: 380px;
+    }
+    .ambition-item {
+        // margin-bottom: 2.5rem;
+    }
+    .ambition-content {
+        margin-bottom: 2.5rem;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        @include transF(translate(0%, -50%));
+    }
+    .events-carousel.owl-carousel .owl-nav {
+        top: 33%;
+    }
+    .owl-carousel .owl-nav button.owl-prev i,
+    .owl-carousel .owl-nav button.owl-next i {
+        font-size: 16px;
+    }
+    .contact {
+        display: block;
+    }
+    .contact-col img {
+        position: static;
+        @include transF(translate(0, 0));
+        height: auto;
+        max-width: 100%;
+    }
+    .contact-col {
+        display: block;
+        width: 100%;
+    }
+    .footer-contact-item {
+        display: inline-block;
+    }
+    .footer-addresses-item p {
+        font-size: 1rem;
+    }
+
+    .footer-social-link {
+        @include size(45px);
+    }
+    .footer-social-link i {
+        font-size: 18px;
+    }
+    .footer-contact-link {
+        font-size: 1rem;
+    }
+    #navbarResp {
+        max-width: 360px;
+    }
+    .doyat-banner {
+        padding: 18rem 0;
+    }
+    .doyat-banner img.bgWave {
+        opacity: 1;
+    }
+    #footer .footerBG.left {
+        display: none;
+    }
+    .doyat-text > img {
+        height: 50%;
+        width: auto;
+    }
+
+    .chitralekh-gallery-img {
+        height: 200px;
+    }
+    .chitralekh-gallery-caption {
+        position: static;
+        padding: 1rem 0;
+    }
+    .chitralekh-gallery-item:before {
+        // display: none;
+        opacity: 1;
+        background: url(../images/svgs/chitralekh/thumbBg.svg);
+        background-size: contain;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        @include transF(scale(-1, -1));
+
+        z-index: -1;
+    }
+    .chitralekh-gallery-item:after {
+        opacity: 1;
+        z-index: -1;
+        top: 0;
+    }
+    .chitralekh-gallery-caption p {
+        @include transF(translateX(0%));
+    }
+    .chitralekh-gallery-caption p span {
+        opacity: 1;
+        @include transF(scale(1));
+    }
+    .chitralekh-gallery-img {
+        background: rgba(255, 255, 255, 0.7);
+    }
+    .chitralekh-gallery-item {
+        margin: 0.875rem auto;
+    }
+    .footer-allAddress {
+        // justify-content: center;
+        margin-top: 1rem;
+        a {
+            margin-left: 0;
+        }
+        p {
+            margin-bottom: 1.5rem;
+        }
+    }
+    .ourWorks-details {
+        justify-content: space-between;
+        // flex-direction: roi;
+        h2 {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+    }
+    .ourWorks-details span.code {
+        order: 2;
+        font-size: 0.875rem;
+        flex: 0 0 47%;
+        max-width: 47%;
+    }
+    .ourWorks-details span.date {
+        order: 3;
+        font-size: 0.875rem;
+        flex: 0 0 47%;
+        max-width: 47%;
+        &-day {
+            font-size: inherit;
+        }
+    }
+    .section-profile-right .cards-doyat-img {
+        height: 200px;
+    }
+    .section-profile-right {
+        &:after {
+            display: none;
+        }
+    }
+    .bloodGroup {
+        &-row {
+            padding: 1rem 0.5rem;
+            background: linear-gradient(45deg, #ffcc00 0%, #fc5c65, #788ae9 90%);
+            position: relative;
+            z-index: 0;
+            margin: 1rem 0;
+            border-radius: 1rem;
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                right: 2px;
+                bottom: 2px;
+                width: auto;
+                height: auto;
+                background: #fff;
+                z-index: -1;
+                border-radius: 0.875rem;
+                background-image: url(../images/svgs/projBg.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+        &-thead {
+            display: none;
+        }
+        &-userImg {
+            @include size(6rem);
+            margin-bottom: 0.5rem;
+        }
+        &-name,
+        &-email,
+        &-userBG,
+        &-city {
+            margin: 0.25rem 0;
+            font-size: 1rem;
+            &:before {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    #navbarResp .custom-nav {
+        display: none;
+    }
+    #navbarResp {
+        display: none !important;
+    }
+    .owl-carousel .owl-nav button.owl-prev,
+    .owl-carousel .owl-nav button.owl-next {
+        @include transF(translate(0%, -50%));
+    }
+    .events-carousel.owl-carousel .owl-nav {
+        top: 33%;
+    }
+    .owl-carousel .owl-nav button.owl-prev i,
+    .owl-carousel .owl-nav button.owl-next i {
+        font-size: 16px;
+    }
+    .contact {
+        display: block;
+        width: 80%;
+        margin: auto;
+        padding-top: 3rem;
+    }
+    .contact-col img {
+        position: static;
+        @include transF(translate(0, 0));
+        height: auto;
+        max-width: 100%;
+    }
+    .contact-col {
+        display: block;
+        width: 100%;
+    }
+    .contact-img {
+        position: relative;
+        width: 60% !important;
+    }
+    .doyat-banner {
+        padding: 15rem 0;
+    }
+    .section-profile-right .cards-doyat-img {
+        height: 250px;
+    }
+    .bloodGroup {
+        &-row {
+            padding: 1rem 0.5rem;
+            background: linear-gradient(45deg, #ffcc00 0%, #fc5c65, #788ae9 90%);
+            position: relative;
+            z-index: 0;
+            margin: 1rem 0;
+            border-radius: 1rem;
+            &:after {
+                content: "";
+                display: block;
+                position: absolute;
+                top: 2px;
+                left: 2px;
+                right: 2px;
+                bottom: 2px;
+                width: auto;
+                height: auto;
+                background: #fff;
+                z-index: -1;
+                border-radius: 0.875rem;
+                background-image: url(../images/svgs/projBg.svg);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+        }
+        &-thead {
+            display: none;
+        }
+        &-userImg {
+            @include size(6rem);
+            margin-bottom: 0.5rem;
+        }
+        &-name,
+        &-email,
+        &-userBG,
+        &-city {
+            margin: 0.25rem 0;
+            font-size: 1rem;
+            &:before {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media only screen and (min-width: 1200px) and (max-width: 1365.98px) {
+    #navbarResp .custom-nav {
+        display: none;
+    }
+    #navbarResp {
+        display: none !important;
+    }
+    .doyat-banner {
+        padding: 15rem 0;
+    }
+    .section-profile-right .cards-doyat-item h3 {
+        font-size: 1.125rem;
+    }
+}
+@media only screen and (min-width: 1366px) and (max-width: 1919.98px) {
+    #navbarResp .custom-nav {
+        display: none;
+    }
+    #navbarResp {
+        display: none !important;
+    }
+    .doyat-banner {
+        padding: 18rem 0;
+    }
+    .section-profile-right .cards-doyat-item h3 {
+        font-size: 1.125rem;
+    }
+}
+@media only screen and (min-width: 1920px) and (max-width: 1919.98px) {
+    #navbarResp .custom-nav {
+        display: none;
+    }
+    #navbarResp {
+        display: none !important;
+    }
+    .doyat-banner {
+        padding: 20rem 0;
+    }
+}

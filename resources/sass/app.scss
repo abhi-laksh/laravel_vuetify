@@ -1,0 +1,47 @@
+@function capitalize($string){
+    @return to-upper-case(str-slice($string, 1, 1)) + str-slice($string, 2);
+}
+@function str-ucwords($string){
+    $progress: $string;
+    $result: "";
+
+    $running: true;
+
+    @while $running{
+        $index: str-index($progress, " ");
+        @if $index {
+            $result: $result + capitalize(str-slice($progress, 1, $index));
+            $progress: str-slice($progress, ($index + 1));
+        } @else {
+            $running: false;
+        } 
+    }
+
+    @return capitalize($result) + capitalize($progress);
+}
+
+@mixin setMainCmnt($msg){
+    /*#{'||  ======================  '+ str-ucwords($msg) +'  ======================  ||'}*/
+}
+@mixin setChildCmnt($msg){ 
+    /*#{'||  ----  '+ str-ucwords($msg) +'  ----  ||'}*/
+}
+
+// @import '~vuetify/src/styles/settings/variables';
+
+
+@import "abstracts/functions";
+@import "abstracts/variables";
+@import "abstracts/mixins"; 
+@include setMainCmnt("Reset/Base starts");
+@import "base/base";
+@include setMainCmnt("Reset/Base ends");
+
+@import "components/button";
+
+@include setMainCmnt("Home starts");
+@import "pages/home";
+@include setMainCmnt("Home ends");
+
+@import '~vuetify/dist/vuetify.min.css';
+@import '~vuetify/src/styles/settings/variables';

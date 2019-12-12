@@ -1,0 +1,11 @@
+
+.button{
+    padding:0.5rem 1rem;
+    display: inline-block;
+    border-radius: 0.25rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    &:hover{
+        opacity: 0.9;
+    }
+}
